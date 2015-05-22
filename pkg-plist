@@ -1,0 +1,12 @@
+bin/MQTTVersion
+include/MQTTAsync.h
+include/MQTTClient.h
+include/MQTTClientPersistence.h
+lib/libpaho-mqtt3c.so.1.0
+lib/libpaho-mqtt3cs.so.1.0
+lib/libpaho-mqtt3a.so.1.0
+lib/libpaho-mqtt3as.so.1.0
+lib/libpaho-mqtt3c.so.1
+lib/libpaho-mqtt3cs.so.1
+lib/libpaho-mqtt3a.so.1
+lib/libpaho-mqtt3as.so.1

@@ -1,0 +1,7 @@
+MQTT C Client for Posix and Windows
+
+The Paho MQTT C Client is a fully fledged MQTT client written in ANSI standard C. It avoids C++ in order to be as portable as possible. A C++ layer over this library is also available in Paho.
+
+In fact there are two C APIs. "Synchronous" and "asynchronous" for which the API calls start with MQTTClient and MQTTAsync respectively. The synchronous API is intended to be simpler and more helpful. To this end, some of the calls will block until the operation has completed, which makes programming easier. In contrast, no calls ever block in the asynchronous API. All notifications of API call results are made by callbacks. This makes the API suitable for use in windowed environments like iOS for instance, where the application is not the main thread of control.
+
+WWW: https://eclipse.org/paho/clients/c/
